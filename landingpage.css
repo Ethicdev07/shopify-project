@@ -53,3 +53,21 @@ nav{
 .fa-bars{
     visibility: hidden;
 }
+
+/* --media--query-- */
+
+@media(max-width:823px){
+    .menu-list{
+        display: none;
+    }
+    .btn-icons button{
+        display: none;
+    }
+    .fa-bars{
+        visibility: visible;
+    }
+    nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
